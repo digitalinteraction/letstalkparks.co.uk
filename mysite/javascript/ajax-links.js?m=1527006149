@@ -1,0 +1,50 @@
+/*
+ *  A helper to perform ajax logic on <a class="ajax">, will perform the link with ajax and use the response html to replace the parent .ajax-section
+ */
+$(document).ready(function() {
+    
+    var inProgress = false;
+    
+    var finishAction = function() {
+        
+        inProgress = false;
+        bindOnClick();
+        $(window).resize();
+    };
+    
+    var actionCallback = function(e) {
+        
+        e.preventDefault();
+        
+        if (inProgress) { return; }
+        
+        inProgress = true;
+        
+        var section = $(this).closest(".ajax-section");
+        
+        var url = $(this).attr('href');
+        url += (url.indexOf("?") > -1) ? "&" : "?";
+        url += "isAjax=1";
+        
+        // Perform the action asynchronously
+        $.ajax({
+            url: url,
+            success: function(response) {
+                
+                section.replaceWith(response);
+                finishAction();
+                return;
+            },
+            error: finishAction
+        });
+    };
+    
+    var bindOnClick = function() {
+        
+        $(".ajax-section a.ajax").unbind("click");
+        $(".ajax-section a.ajax").on("click", actionCallback);
+    };
+    
+    bindOnClick();
+    
+});

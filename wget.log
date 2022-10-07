@@ -1,0 +1,662 @@
+--2022-10-07 17:01:44--  https://letstalkparks.co.uk/
+Resolving letstalkparks.co.uk (letstalkparks.co.uk)... 128.240.212.41
+Connecting to letstalkparks.co.uk (letstalkparks.co.uk)|128.240.212.41|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘letstalkparks.co.uk/index.html’
+
+     0K .......... ..                                          1.51M=0.008s
+
+Last-modified header missing -- time-stamps turned off.
+2022-10-07 17:01:44 (1.51 MB/s) - ‘letstalkparks.co.uk/index.html’ saved [13290]
+
+Loading robots.txt; please ignore errors.
+--2022-10-07 17:01:44--  https://letstalkparks.co.uk/robots.txt
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 404 Not Found
+2022-10-07 17:01:44 ERROR 404: Not Found.
+
+--2022-10-07 17:01:44--  https://letstalkparks.co.uk/themes/ltp/images/favicon.png
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 657 [image/png]
+Saving to: ‘letstalkparks.co.uk/themes/ltp/images/favicon.png’
+
+     0K                                                       100% 67.5M=0s
+
+2022-10-07 17:01:44 (67.5 MB/s) - ‘letstalkparks.co.uk/themes/ltp/images/favicon.png’ saved [657/657]
+
+--2022-10-07 17:01:44--  https://letstalkparks.co.uk/mysite/css/jqcloud.min.css?m=1527006149
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1213 (1.2K) [text/css]
+Saving to: ‘letstalkparks.co.uk/mysite/css/jqcloud.min.css?m=1527006149.css’
+
+     0K .                                                     100% 23.9M=0s
+
+2022-10-07 17:01:44 (23.9 MB/s) - ‘letstalkparks.co.uk/mysite/css/jqcloud.min.css?m=1527006149.css’ saved [1213/1213]
+
+--2022-10-07 17:01:44--  https://letstalkparks.co.uk/mysite/css/lightbox.css?m=1527006149
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3813 (3.7K) [text/css]
+Saving to: ‘letstalkparks.co.uk/mysite/css/lightbox.css?m=1527006149.css’
+
+     0K ...                                                   100%  401M=0s
+
+2022-10-07 17:01:44 (401 MB/s) - ‘letstalkparks.co.uk/mysite/css/lightbox.css?m=1527006149.css’ saved [3813/3813]
+
+--2022-10-07 17:01:44--  https://letstalkparks.co.uk/themes/ltp/css/font-awesome.min.css?m=1527006149
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 29062 (28K) [text/css]
+Saving to: ‘letstalkparks.co.uk/themes/ltp/css/font-awesome.min.css?m=1527006149.css’
+
+     0K .......... .......... ........                        100%  123M=0s
+
+2022-10-07 17:01:44 (123 MB/s) - ‘letstalkparks.co.uk/themes/ltp/css/font-awesome.min.css?m=1527006149.css’ saved [29062/29062]
+
+--2022-10-07 17:01:44--  https://letstalkparks.co.uk/interactables/css/interactables.css?m=1527006149
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2296 (2.2K) [text/css]
+Saving to: ‘letstalkparks.co.uk/interactables/css/interactables.css?m=1527006149.css’
+
+     0K ..                                                    100%  234M=0s
+
+2022-10-07 17:01:44 (234 MB/s) - ‘letstalkparks.co.uk/interactables/css/interactables.css?m=1527006149.css’ saved [2296/2296]
+
+--2022-10-07 17:01:44--  https://letstalkparks.co.uk/themes/ltp/css/ltp.css?m=1527006149
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 152369 (149K) [text/css]
+Saving to: ‘letstalkparks.co.uk/themes/ltp/css/ltp.css?m=1527006149.css’
+
+     0K .......... .......... .......... .......... .......... 33%  122M 0s
+    50K .......... .......... .......... .......... .......... 67%  170M 0s
+   100K .......... .......... .......... .......... ........  100%  171M=0.001s
+
+2022-10-07 17:01:44 (150 MB/s) - ‘letstalkparks.co.uk/themes/ltp/css/ltp.css?m=1527006149.css’ saved [152369/152369]
+
+--2022-10-07 17:01:44--  https://letstalkparks.co.uk/home/
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: / [following]
+--2022-10-07 17:01:44--  https://letstalkparks.co.uk/
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘letstalkparks.co.uk/home/index.html’
+
+     0K .......... ..                                          1.51M=0.008s
+
+Last-modified header missing -- time-stamps turned off.
+2022-10-07 17:01:44 (1.51 MB/s) - ‘letstalkparks.co.uk/home/index.html’ saved [13290]
+
+--2022-10-07 17:01:44--  https://letstalkparks.co.uk/themes/ltp/images/brand.png
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 13519 (13K) [image/png]
+Saving to: ‘letstalkparks.co.uk/themes/ltp/images/brand.png’
+
+     0K .......... ...                                        100%  131M=0s
+
+2022-10-07 17:01:44 (131 MB/s) - ‘letstalkparks.co.uk/themes/ltp/images/brand.png’ saved [13519/13519]
+
+--2022-10-07 17:01:44--  https://letstalkparks.co.uk/about/
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘letstalkparks.co.uk/about/index.html’
+
+     0K .......... ...                                         1.76M=0.008s
+
+Last-modified header missing -- time-stamps turned off.
+2022-10-07 17:01:44 (1.76 MB/s) - ‘letstalkparks.co.uk/about/index.html’ saved [14149]
+
+--2022-10-07 17:01:44--  https://letstalkparks.co.uk/explore/
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘letstalkparks.co.uk/explore/index.html’
+
+     0K .......... ......                                      93.3M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2022-10-07 17:01:44 (93.3 MB/s) - ‘letstalkparks.co.uk/explore/index.html’ saved [17048]
+
+--2022-10-07 17:01:44--  https://letstalkparks.co.uk/themes/ltp/images/navbar-grass.png
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20816 (20K) [image/png]
+Saving to: ‘letstalkparks.co.uk/themes/ltp/images/navbar-grass.png’
+
+     0K .......... ..........                                 100%  138M=0s
+
+2022-10-07 17:01:44 (138 MB/s) - ‘letstalkparks.co.uk/themes/ltp/images/navbar-grass.png’ saved [20816/20816]
+
+--2022-10-07 17:01:44--  https://letstalkparks.co.uk/login?BackURL=%2Fexplore%2F
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘letstalkparks.co.uk/login?BackURL=%2Fexplore%2F.html’
+
+     0K ........                                               1017K=0.009s
+
+Last-modified header missing -- time-stamps turned off.
+2022-10-07 17:01:44 (1017 KB/s) - ‘letstalkparks.co.uk/login?BackURL=%2Fexplore%2F.html’ saved [9009]
+
+--2022-10-07 17:01:44--  https://letstalkparks.co.uk/lets-talk-parks/images/ltp-tree.svg
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 123784 (121K) [image/svg+xml]
+Saving to: ‘letstalkparks.co.uk/lets-talk-parks/images/ltp-tree.svg’
+
+     0K .......... .......... .......... .......... .......... 41%  136M 0s
+    50K .......... .......... .......... .......... .......... 82%  141M 0s
+   100K .......... ..........                                 100%  152M=0.001s
+
+2022-10-07 17:01:44 (140 MB/s) - ‘letstalkparks.co.uk/lets-talk-parks/images/ltp-tree.svg’ saved [123784/123784]
+
+--2022-10-07 17:01:44--  https://letstalkparks.co.uk/register/
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘letstalkparks.co.uk/register/index.html’
+
+     0K ..........                                             1.06M=0.01s
+
+Last-modified header missing -- time-stamps turned off.
+2022-10-07 17:01:45 (1.06 MB/s) - ‘letstalkparks.co.uk/register/index.html’ saved [10820]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/lets-talk-parks/images/home-bottom.svg
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 176093 (172K) [image/svg+xml]
+Saving to: ‘letstalkparks.co.uk/lets-talk-parks/images/home-bottom.svg’
+
+     0K .......... .......... .......... .......... .......... 29% 92.2M 0s
+    50K .......... .......... .......... .......... .......... 58% 47.3M 0s
+   100K .......... .......... .......... .......... .......... 87% 54.3M 0s
+   150K .......... .......... .                               100%  131M=0.003s
+
+2022-10-07 17:01:45 (64.0 MB/s) - ‘letstalkparks.co.uk/lets-talk-parks/images/home-bottom.svg’ saved [176093/176093]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/login?BackURL=%2Fhome%2F
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘letstalkparks.co.uk/login?BackURL=%2Fhome%2F.html’
+
+     0K ........                                                929K=0.009s
+
+Last-modified header missing -- time-stamps turned off.
+2022-10-07 17:01:45 (929 KB/s) - ‘letstalkparks.co.uk/login?BackURL=%2Fhome%2F.html’ saved [9006]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/terms/
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘letstalkparks.co.uk/terms/index.html’
+
+     0K .......... .......... ....                             3.03M=0.008s
+
+Last-modified header missing -- time-stamps turned off.
+2022-10-07 17:01:45 (3.03 MB/s) - ‘letstalkparks.co.uk/terms/index.html’ saved [25074]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/privacy/
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘letstalkparks.co.uk/privacy/index.html’
+
+     0K .......... .........                                   2.27M=0.008s
+
+Last-modified header missing -- time-stamps turned off.
+2022-10-07 17:01:45 (2.27 MB/s) - ‘letstalkparks.co.uk/privacy/index.html’ saved [20129]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/assets/Uploads/_resampled/ScaleHeightWyI0MCJd/OL.png
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5555 (5.4K) [image/png]
+Saving to: ‘letstalkparks.co.uk/assets/Uploads/_resampled/ScaleHeightWyI0MCJd/OL.png’
+
+     0K .....                                                 100%  104M=0s
+
+2022-10-07 17:01:45 (104 MB/s) - ‘letstalkparks.co.uk/assets/Uploads/_resampled/ScaleHeightWyI0MCJd/OL.png’ saved [5555/5555]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/assets/Uploads/_resampled/ScaleHeightWyI0MCJd/NCC.png
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9473 (9.3K) [image/png]
+Saving to: ‘letstalkparks.co.uk/assets/Uploads/_resampled/ScaleHeightWyI0MCJd/NCC.png’
+
+     0K .........                                             100%  121M=0s
+
+2022-10-07 17:01:45 (121 MB/s) - ‘letstalkparks.co.uk/assets/Uploads/_resampled/ScaleHeightWyI0MCJd/NCC.png’ saved [9473/9473]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/assets/Uploads/_resampled/ScaleHeightWyI0MCJd/LTN.png
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4517 (4.4K) [image/png]
+Saving to: ‘letstalkparks.co.uk/assets/Uploads/_resampled/ScaleHeightWyI0MCJd/LTN.png’
+
+     0K ....                                                  100% 90.0M=0s
+
+2022-10-07 17:01:45 (90.0 MB/s) - ‘letstalkparks.co.uk/assets/Uploads/_resampled/ScaleHeightWyI0MCJd/LTN.png’ saved [4517/4517]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/assets/Uploads/_resampled/ScaleHeightWyI0MCJd/EPSRC-03.png
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6622 (6.5K) [image/png]
+Saving to: ‘letstalkparks.co.uk/assets/Uploads/_resampled/ScaleHeightWyI0MCJd/EPSRC-03.png’
+
+     0K ......                                                100%  115M=0s
+
+2022-10-07 17:01:45 (115 MB/s) - ‘letstalkparks.co.uk/assets/Uploads/_resampled/ScaleHeightWyI0MCJd/EPSRC-03.png’ saved [6622/6622]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/assets/Uploads/_resampled/ScaleHeightWyI0MCJd/Myplace2.png
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5992 (5.9K) [image/png]
+Saving to: ‘letstalkparks.co.uk/assets/Uploads/_resampled/ScaleHeightWyI0MCJd/Myplace2.png’
+
+     0K .....                                                 100%  119M=0s
+
+2022-10-07 17:01:45 (119 MB/s) - ‘letstalkparks.co.uk/assets/Uploads/_resampled/ScaleHeightWyI0MCJd/Myplace2.png’ saved [5992/5992]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/mysite/javascript/jquery-3.1.0.min.js?m=1527006149
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 86351 (84K) [application/javascript]
+Saving to: ‘letstalkparks.co.uk/mysite/javascript/jquery-3.1.0.min.js?m=1527006149’
+
+     0K .......... .......... .......... .......... .......... 59%  108M 0s
+    50K .......... .......... .......... ....                 100% 70.1M=0.001s
+
+2022-10-07 17:01:45 (88.4 MB/s) - ‘letstalkparks.co.uk/mysite/javascript/jquery-3.1.0.min.js?m=1527006149’ saved [86351/86351]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/mysite/javascript/bootstrap.min.js?m=1527006149
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 37045 (36K) [application/javascript]
+Saving to: ‘letstalkparks.co.uk/mysite/javascript/bootstrap.min.js?m=1527006149’
+
+     0K .......... .......... .......... ......               100% 9.35M=0.004s
+
+2022-10-07 17:01:45 (9.35 MB/s) - ‘letstalkparks.co.uk/mysite/javascript/bootstrap.min.js?m=1527006149’ saved [37045/37045]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/mysite/javascript/ajax-links.js?m=1527006149
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1236 (1.2K) [application/javascript]
+Saving to: ‘letstalkparks.co.uk/mysite/javascript/ajax-links.js?m=1527006149’
+
+     0K .                                                     100%  129M=0s
+
+2022-10-07 17:01:45 (129 MB/s) - ‘letstalkparks.co.uk/mysite/javascript/ajax-links.js?m=1527006149’ saved [1236/1236]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/mysite/javascript/ajax-forms.js?m=1527006149
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2790 (2.7K) [application/javascript]
+Saving to: ‘letstalkparks.co.uk/mysite/javascript/ajax-forms.js?m=1527006149’
+
+     0K ..                                                    100%  320M=0s
+
+2022-10-07 17:01:45 (320 MB/s) - ‘letstalkparks.co.uk/mysite/javascript/ajax-forms.js?m=1527006149’ saved [2790/2790]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/mysite/javascript/jqcloud.min.js?m=1527006149
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 8303 (8.1K) [application/javascript]
+Saving to: ‘letstalkparks.co.uk/mysite/javascript/jqcloud.min.js?m=1527006149’
+
+     0K ........                                              100%  107M=0s
+
+2022-10-07 17:01:45 (107 MB/s) - ‘letstalkparks.co.uk/mysite/javascript/jqcloud.min.js?m=1527006149’ saved [8303/8303]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/mysite/javascript/wordcloud.js?m=1527006149
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 140 [application/javascript]
+Saving to: ‘letstalkparks.co.uk/mysite/javascript/wordcloud.js?m=1527006149’
+
+     0K                                                       100% 14.8M=0s
+
+2022-10-07 17:01:45 (14.8 MB/s) - ‘letstalkparks.co.uk/mysite/javascript/wordcloud.js?m=1527006149’ saved [140/140]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/mysite/javascript/lightbox.js?m=1527006149
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 15643 (15K) [application/javascript]
+Saving to: ‘letstalkparks.co.uk/mysite/javascript/lightbox.js?m=1527006149’
+
+     0K .......... .....                                      100% 86.0M=0s
+
+2022-10-07 17:01:45 (86.0 MB/s) - ‘letstalkparks.co.uk/mysite/javascript/lightbox.js?m=1527006149’ saved [15643/15643]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/themes/ltp/javascript/script.js?m=1527006149
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6135 (6.0K) [application/javascript]
+Saving to: ‘letstalkparks.co.uk/themes/ltp/javascript/script.js?m=1527006149’
+
+     0K .....                                                 100%  114M=0s
+
+2022-10-07 17:01:45 (114 MB/s) - ‘letstalkparks.co.uk/themes/ltp/javascript/script.js?m=1527006149’ saved [6135/6135]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/mysite/images/close.png
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 280 [image/png]
+Saving to: ‘letstalkparks.co.uk/mysite/images/close.png’
+
+     0K                                                       100% 29.4M=0s
+
+2022-10-07 17:01:45 (29.4 MB/s) - ‘letstalkparks.co.uk/mysite/images/close.png’ saved [280/280]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/mysite/images/loading.gif
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 8476 (8.3K) [image/gif]
+Saving to: ‘letstalkparks.co.uk/mysite/images/loading.gif’
+
+     0K ........                                              100%  109M=0s
+
+2022-10-07 17:01:45 (109 MB/s) - ‘letstalkparks.co.uk/mysite/images/loading.gif’ saved [8476/8476]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/mysite/images/prev.png
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1360 (1.3K) [image/png]
+Saving to: ‘letstalkparks.co.uk/mysite/images/prev.png’
+
+     0K .                                                     100%  143M=0s
+
+2022-10-07 17:01:45 (143 MB/s) - ‘letstalkparks.co.uk/mysite/images/prev.png’ saved [1360/1360]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/mysite/images/next.png
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1350 (1.3K) [image/png]
+Saving to: ‘letstalkparks.co.uk/mysite/images/next.png’
+
+     0K .                                                     100%  152M=0s
+
+2022-10-07 17:01:45 (152 MB/s) - ‘letstalkparks.co.uk/mysite/images/next.png’ saved [1350/1350]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/themes/ltp/fonts/fontawesome-webfont.eot?v=4.6.3
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 76518 (75K) [application/vnd.ms-fontobject]
+Saving to: ‘letstalkparks.co.uk/themes/ltp/fonts/fontawesome-webfont.eot?v=4.6.3’
+
+     0K .......... .......... .......... .......... .......... 66% 57.0M 0s
+    50K .......... .......... ....                            100% 90.2M=0.001s
+
+2022-10-07 17:01:45 (64.9 MB/s) - ‘letstalkparks.co.uk/themes/ltp/fonts/fontawesome-webfont.eot?v=4.6.3’ saved [76518/76518]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/themes/ltp/fonts/fontawesome-webfont.eot?
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 76518 (75K) [application/vnd.ms-fontobject]
+Saving to: ‘letstalkparks.co.uk/themes/ltp/fonts/fontawesome-webfont.eot?’
+
+     0K .......... .......... .......... .......... .......... 66%  125M 0s
+    50K .......... .......... ....                            100%  157M=0.001s
+
+2022-10-07 17:01:45 (134 MB/s) - ‘letstalkparks.co.uk/themes/ltp/fonts/fontawesome-webfont.eot?’ saved [76518/76518]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/themes/ltp/fonts/fontawesome-webfont.woff2?v=4.6.3
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 71896 (70K) [application/octet-stream]
+Saving to: ‘letstalkparks.co.uk/themes/ltp/fonts/fontawesome-webfont.woff2?v=4.6.3’
+
+     0K .......... .......... .......... .......... .......... 71% 56.8M 0s
+    50K .......... ..........                                 100% 92.7M=0.001s
+
+2022-10-07 17:01:45 (63.9 MB/s) - ‘letstalkparks.co.uk/themes/ltp/fonts/fontawesome-webfont.woff2?v=4.6.3’ saved [71896/71896]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/themes/ltp/fonts/fontawesome-webfont.woff?v=4.6.3
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 90412 (88K) [application/font-woff]
+Saving to: ‘letstalkparks.co.uk/themes/ltp/fonts/fontawesome-webfont.woff?v=4.6.3’
+
+     0K .......... .......... .......... .......... .......... 56%  156M 0s
+    50K .......... .......... .......... ........             100%  142M=0.001s
+
+2022-10-07 17:01:45 (150 MB/s) - ‘letstalkparks.co.uk/themes/ltp/fonts/fontawesome-webfont.woff?v=4.6.3’ saved [90412/90412]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/themes/ltp/fonts/fontawesome-webfont.ttf?v=4.6.3
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 152796 (149K) [application/octet-stream]
+Saving to: ‘letstalkparks.co.uk/themes/ltp/fonts/fontawesome-webfont.ttf?v=4.6.3’
+
+     0K .......... .......... .......... .......... .......... 33% 64.7M 0s
+    50K .......... .......... .......... .......... .......... 67% 55.3M 0s
+   100K .......... .......... .......... .......... ......... 100% 64.9M=0.002s
+
+2022-10-07 17:01:45 (61.3 MB/s) - ‘letstalkparks.co.uk/themes/ltp/fonts/fontawesome-webfont.ttf?v=4.6.3’ saved [152796/152796]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/themes/ltp/fonts/fontawesome-webfont.svg?v=4.6.3
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 391622 (382K) [image/svg+xml]
+Saving to: ‘letstalkparks.co.uk/themes/ltp/fonts/fontawesome-webfont.svg?v=4.6.3’
+
+     0K .......... .......... .......... .......... .......... 13% 89.7M 0s
+    50K .......... .......... .......... .......... .......... 26% 45.4M 0s
+   100K .......... .......... .......... .......... .......... 39% 25.2M 0s
+   150K .......... .......... .......... .......... .......... 52%  105M 0s
+   200K .......... .......... .......... .......... .......... 65%  112M 0s
+   250K .......... .......... .......... .......... .......... 78%  118M 0s
+   300K .......... .......... .......... .......... .......... 91% 14.7M 0s
+   350K .......... .......... .......... ..                   100%  112M=0.008s
+
+2022-10-07 17:01:45 (44.0 MB/s) - ‘letstalkparks.co.uk/themes/ltp/fonts/fontawesome-webfont.svg?v=4.6.3’ saved [391622/391622]
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/themes/ltp/fonts/glyphicons-halflings-regular.eot
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 404 Not Found
+2022-10-07 17:01:45 ERROR 404: Not Found.
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/themes/ltp/fonts/glyphicons-halflings-regular.eot?
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 404 Not Found
+2022-10-07 17:01:45 ERROR 404: Not Found.
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/themes/ltp/fonts/glyphicons-halflings-regular.woff2
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 404 Not Found
+2022-10-07 17:01:45 ERROR 404: Not Found.
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/themes/ltp/fonts/glyphicons-halflings-regular.woff
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 404 Not Found
+2022-10-07 17:01:45 ERROR 404: Not Found.
+
+--2022-10-07 17:01:45--  https://letstalkparks.co.uk/themes/ltp/fonts/glyphicons-halflings-regular.ttf
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 404 Not Found
+2022-10-07 17:01:46 ERROR 404: Not Found.
+
+--2022-10-07 17:01:46--  https://letstalkparks.co.uk/themes/ltp/fonts/glyphicons-halflings-regular.svg
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 404 Not Found
+2022-10-07 17:01:46 ERROR 404: Not Found.
+
+--2022-10-07 17:01:46--  https://letstalkparks.co.uk/themes/ltp/images/placeholder-cover.png
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 130281 (127K) [image/png]
+Saving to: ‘letstalkparks.co.uk/themes/ltp/images/placeholder-cover.png’
+
+     0K .......... .......... .......... .......... .......... 39% 58.6M 0s
+    50K .......... .......... .......... .......... .......... 78% 48.1M 0s
+   100K .......... .......... .......                         100% 83.8M=0.002s
+
+2022-10-07 17:01:46 (57.4 MB/s) - ‘letstalkparks.co.uk/themes/ltp/images/placeholder-cover.png’ saved [130281/130281]
+
+--2022-10-07 17:01:46--  https://letstalkparks.co.uk/lets-talk-parks/images/explore-bottom.svg
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 13209 (13K) [image/svg+xml]
+Saving to: ‘letstalkparks.co.uk/lets-talk-parks/images/explore-bottom.svg’
+
+     0K .......... ..                                         100%  133M=0s
+
+2022-10-07 17:01:46 (133 MB/s) - ‘letstalkparks.co.uk/lets-talk-parks/images/explore-bottom.svg’ saved [13209/13209]
+
+--2022-10-07 17:01:46--  https://letstalkparks.co.uk/lets-talk-parks/images/left-arrow.svg
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 410 [image/svg+xml]
+Saving to: ‘letstalkparks.co.uk/lets-talk-parks/images/left-arrow.svg’
+
+     0K                                                       100% 43.8M=0s
+
+2022-10-07 17:01:46 (43.8 MB/s) - ‘letstalkparks.co.uk/lets-talk-parks/images/left-arrow.svg’ saved [410/410]
+
+--2022-10-07 17:01:46--  https://letstalkparks.co.uk/lets-talk-parks/images/right-arrow.svg
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 413 [image/svg+xml]
+Saving to: ‘letstalkparks.co.uk/lets-talk-parks/images/right-arrow.svg’
+
+     0K                                                       100% 46.2M=0s
+
+2022-10-07 17:01:46 (46.2 MB/s) - ‘letstalkparks.co.uk/lets-talk-parks/images/right-arrow.svg’ saved [413/413]
+
+--2022-10-07 17:01:46--  https://letstalkparks.co.uk/lets-talk-parks/images/home-bottom-mobile.svg
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 176830 (173K) [image/svg+xml]
+Saving to: ‘letstalkparks.co.uk/lets-talk-parks/images/home-bottom-mobile.svg’
+
+     0K .......... .......... .......... .......... .......... 28% 59.9M 0s
+    50K .......... .......... .......... .......... .......... 57% 56.1M 0s
+   100K .......... .......... .......... .......... .......... 86% 60.3M 0s
+   150K .......... .......... ..                              100% 66.9M=0.003s
+
+2022-10-07 17:01:46 (59.7 MB/s) - ‘letstalkparks.co.uk/lets-talk-parks/images/home-bottom-mobile.svg’ saved [176830/176830]
+
+--2022-10-07 17:01:46--  https://letstalkparks.co.uk/assets/Uploads/_resampled/ResizedImageWzExMSw4MF0/LTN.png
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 11824 (12K) [image/png]
+Saving to: ‘letstalkparks.co.uk/assets/Uploads/_resampled/ResizedImageWzExMSw4MF0/LTN.png’
+
+     0K .......... .                                          100% 95.8M=0s
+
+2022-10-07 17:01:46 (95.8 MB/s) - ‘letstalkparks.co.uk/assets/Uploads/_resampled/ResizedImageWzExMSw4MF0/LTN.png’ saved [11824/11824]
+
+--2022-10-07 17:01:46--  https://letstalkparks.co.uk/assets/Uploads/_resampled/ResizedImageWzMyOSw4MF0/Newcastle-City-Council.png
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 23973 (23K) [image/png]
+Saving to: ‘letstalkparks.co.uk/assets/Uploads/_resampled/ResizedImageWzMyOSw4MF0/Newcastle-City-Council.png’
+
+     0K .......... .......... ...                             100%  126M=0s
+
+2022-10-07 17:01:46 (126 MB/s) - ‘letstalkparks.co.uk/assets/Uploads/_resampled/ResizedImageWzMyOSw4MF0/Newcastle-City-Council.png’ saved [23973/23973]
+
+--2022-10-07 17:01:46--  https://letstalkparks.co.uk/workshop-signup/
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘letstalkparks.co.uk/workshop-signup/index.html’
+
+     0K .........                                              1.08M=0.008s
+
+Last-modified header missing -- time-stamps turned off.
+2022-10-07 17:01:46 (1.08 MB/s) - ‘letstalkparks.co.uk/workshop-signup/index.html’ saved [9471]
+
+--2022-10-07 17:01:46--  https://letstalkparks.co.uk/login?BackURL=%2Fabout%2F
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘letstalkparks.co.uk/login?BackURL=%2Fabout%2F.html’
+
+     0K ........                                                994K=0.009s
+
+Last-modified header missing -- time-stamps turned off.
+2022-10-07 17:01:46 (994 KB/s) - ‘letstalkparks.co.uk/login?BackURL=%2Fabout%2F.html’ saved [9007]
+
+--2022-10-07 17:01:46--  https://letstalkparks.co.uk/assets/Uploads/Explore-Page/explore-tree.svg
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 18915 (18K) [image/svg+xml]
+Saving to: ‘letstalkparks.co.uk/assets/Uploads/Explore-Page/explore-tree.svg’
+
+     0K .......... ........                                   100% 98.6M=0s
+
+2022-10-07 17:01:46 (98.6 MB/s) - ‘letstalkparks.co.uk/assets/Uploads/Explore-Page/explore-tree.svg’ saved [18915/18915]
+
+--2022-10-07 17:01:46--  https://letstalkparks.co.uk/explore/money/
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘letstalkparks.co.uk/explore/money/index.html’
+
+     0K .......... .......... .......... .........             3.11M=0.01s
+
+Last-modified header missing -- time-stamps turned off.
+2022-10-07 17:01:46 (3.11 MB/s) - ‘letstalkparks.co.uk/explore/money/index.html’ saved [39957]
+
+--2022-10-07 17:01:46--  https://letstalkparks.co.uk/assets/Uploads/money-topic-18-18.svg
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 90450 (88K) [image/svg+xml]
+Saving to: ‘letstalkparks.co.uk/assets/Uploads/money-topic-18-18.svg’
+
+     0K .......... .......... .......... .......... .......... 56% 62.0M 0s
+    50K .......... .......... .......... ........             100% 90.9M=0.001s
+
+2022-10-07 17:01:46 (72.0 MB/s) - ‘letstalkparks.co.uk/assets/Uploads/money-topic-18-18.svg’ saved [90450/90450]
+
+--2022-10-07 17:01:46--  https://letstalkparks.co.uk/explore/volunteers/
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘letstalkparks.co.uk/explore/volunteers/index.html’
+
+     0K .......... .......... .....                            2.46M=0.01s
+
+Last-modified header missing -- time-stamps turned off.
+2022-10-07 17:01:47 (2.46 MB/s) - ‘letstalkparks.co.uk/explore/volunteers/index.html’ saved [26260]
+
+--2022-10-07 17:01:47--  https://letstalkparks.co.uk/assets/Uploads/volunteer-topic-19.svg
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 54189 (53K) [image/svg+xml]
+Saving to: ‘letstalkparks.co.uk/assets/Uploads/volunteer-topic-19.svg’
+
+     0K .......... .......... .......... .......... .......... 94%  138M 0s
+    50K ..                                                    100%  105M=0s
+
+2022-10-07 17:01:47 (136 MB/s) - ‘letstalkparks.co.uk/assets/Uploads/volunteer-topic-19.svg’ saved [54189/54189]
+
+--2022-10-07 17:01:47--  https://letstalkparks.co.uk/explore/green-spaces/
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘letstalkparks.co.uk/explore/green-spaces/index.html’
+
+     0K .......... .......... ..                               2.22M=0.01s
+
+Last-modified header missing -- time-stamps turned off.
+2022-10-07 17:01:47 (2.22 MB/s) - ‘letstalkparks.co.uk/explore/green-spaces/index.html’ saved [22892]
+
+--2022-10-07 17:01:47--  https://letstalkparks.co.uk/assets/Uploads/activity-topic-19.svg
+Reusing existing connection to letstalkparks.co.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 117962 (115K) [image/svg+xml]
+Saving to: ‘letstalkparks.co.uk/assets/Uploads/activity-topic-19.svg’
+
+     0K .......... .......... .......... .......... .......... 43%  138M 0s
+    50K .......... .......... .......... .......... .......... 86%  158M 0s
+   100K .......... .....

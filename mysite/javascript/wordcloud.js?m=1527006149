@@ -1,0 +1,11 @@
+var words = [
+    { text: "Poop", weight: 10}
+];
+
+$(document).ready(function() {
+    
+    // console.log($('').jQCloud);
+    
+    
+    
+});

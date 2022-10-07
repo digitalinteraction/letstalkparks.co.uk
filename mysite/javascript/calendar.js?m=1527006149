@@ -1,0 +1,47 @@
+// Custom js for a Calendar page
+
+(function($) {
+    
+    $(document).ready(function() {
+        
+        // When clicking on a calendar event
+        $("td.has-event .event, .event-list .event").click(function(e) {
+            
+            var eventId = $(this).data("event-id");
+            var node = this;
+            
+            // Reset the popup's title and body
+            $("#eventModal #eventModalLabel").text("");
+            $("#eventModal .modal-body").html("");
+            
+            
+            // Get the base url
+            var base = [location.protocol, '//', location.host, location.pathname].join('');
+            
+            // Append a / to the url
+            if (base.slice(-1) != '/') { base += "/"; }
+            
+            
+            // Perform an ajax to get the event
+            $.ajax({
+                url: base + "event?id=" + eventId,
+                success: function(event) {
+                    
+                    var content = "<h3>" + event.date + "</h3>" + event.detail;
+                    
+                    var eventlink = base + "calevent?id=" + eventId;
+                    
+                    // Add a link to download the event
+                    content += '<p class="text-center"><a href="'+eventlink+'"> Add to Calendar </a><p>';
+                    
+                    $("#eventModal #eventModalLabel").text(event.title);
+                    $("#eventModal .modal-body").html(content);
+                }
+            });
+            
+            
+        });
+        
+    });
+    
+})($);

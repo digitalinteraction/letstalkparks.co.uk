@@ -1,0 +1,192 @@
+$(document).ready(function() {
+    
+    
+    var defaultVoteMessage = "Cast your vote";
+    
+    $(window).resize(function() {
+        $("html body:not(.Fullscreen)").css("padding-bottom", $("footer").outerHeight(true) );
+    }).resize();
+    
+    // $('head').append(
+    //     '<link href="https://fonts.googleapis.com/css?family=Oswald|Overpass" rel="stylesheet">'
+    // );
+    
+    $('.ComingSoonPage .bg-holder').on('click', function(e) {
+        
+        if ($(window).width() < 768) {
+            window.location = $('.mobile-register a').attr('href');
+        }
+    });
+    
+    
+    $('.TopicPage .toggle-info a').on('click', function(e) {
+        
+        e.preventDefault();
+        
+        $('.more-info').animate({
+            height: "toggle"
+        }, 300, 'swing');
+        
+    });
+    
+    $('.toggle-content').on('click', function(e) {
+        
+        e.preventDefault();
+        
+        var target = $(this).data('target');
+        
+        $(target).animate({
+            height: 'toggle'
+        }, 300, 'swing');
+    });
+    
+    
+    function sizeVoting(section) {
+        
+        if (section) {
+            section = $(section);
+        }
+        else {
+            section = $('.voting-section');
+        }
+        
+        var upvote = section.find('.vote.agree');
+        var downvote = section.find('.vote.disagree');
+        var revote = section.find('.revote');
+        var summary = section.find('.summary-message');
+        
+        var voted = $('.voting-section').hasClass('voted');
+        
+        var base = 25;
+        var diff = 145;
+        
+        var upValue = Math.round(parseFloat(upvote.data('percent')));
+        var downValue = Math.round(parseFloat(downvote.data('percent')));
+        
+        console.log(upValue, downValue);
+        
+        var upMessage = upvote.attr('title');
+        var downMessage = downvote.attr('title');
+        
+        var upHeight = (upValue/100) * diff;
+        var downHeight = (downValue/100) * diff;
+        
+        upvote.height(base + upHeight + 'px');
+        downvote.height(base + downHeight + 'px');
+        
+        if (voted) {
+            upMessage = upValue + '% ' + upMessage;
+            downMessage = downValue + '% ' + downMessage;
+        }
+        
+        upvote.find('.text').text(upMessage);
+        downvote.find('.text').text(downMessage);
+        
+        downvote.css({
+            'background-color': (voted) ? '#6e8c3b' : '#a3c23a'
+        });
+        
+        if (summary.text() === '') {
+            var message = defaultVoteMessage;
+            
+            if (upvote.hasClass('chosen')) {
+                message = "You chose '" + upvote.attr('title') + "'";
+            }
+            else if (downvote.hasClass('chosen')) {
+                message = "You chose '" + downvote.attr('title') + "'";
+            }
+            summary.text(message);
+        }
+        
+        if (voted) {
+            revote.slideDown(400);
+        }
+        else {
+            revote.slideUp(400);
+        }
+    }
+    
+    $(document).ready(function() {
+        
+        $('.voting-section').each(function() {
+            sizeVoting(this);
+        });
+    });
+    
+    $('.voting-section .vote').on('click', function(e) {
+        
+        e.preventDefault();
+        
+        var isRevote = $(this).hasClass('unvote');
+        
+        
+        // Do nothing if we've already voted
+        if ($('.voting-section').hasClass('voted') && !isRevote) {
+            return;
+        }
+        
+        
+        $('.voting-section').toggleClass('voted', true);
+        
+        $('.voting-section .summary-message').html('Working <i class="fa fa-spin fa-cog" aria-hidden="true"></i>');
+        
+        
+        $.ajax({
+            url: $(this).attr('href') + '&json',
+            success: function(data) {
+                
+                if (data.numVotes > 0 && !isRevote) {
+                    var percent = Math.round(100 * (parseFloat(data.agree) / data.numVotes));
+                    
+                    console.log(percent, 100-percent);
+                    
+                    $('.voting-section .vote.agree').data('percent', percent);
+                    $('.voting-section .vote.disagree').data('percent', 100-percent);
+                }
+                else {
+                    
+                    $('.voting-section .vote.agree').data('percent', 0);
+                    $('.voting-section .vote.disagree').data('percent', 0);
+                }
+                
+                var same = 0;
+                if (data.current === 1) { same = data.agree - 1; }
+                if (data.current === -1) { same = data.disagree - 1; }
+                
+                var message = 'You voted the same as ' + (same) + '/' + (data.numVotes-1) + ' other people';
+                
+                if (same === 0) {
+                    message = 'You were the first to vote this!';
+                }
+                else if (data.numVotes === 1) {
+                    message = 'You were the first to vote!';
+                }
+                else if (same === 1){
+                    message = 'You voted the same as someone else';
+                }
+                else {
+                    message = 'You voted the same as ' + same + ' other people';
+                }
+                
+                var hasVoted = data.current !== 0;
+                
+                $('.voting-section .summary-message').text((hasVoted) ? message : defaultVoteMessage);
+                
+                $('.voting-section').toggleClass('voted', hasVoted);
+                
+                $('.voting-section .vote.agree').toggleClass('chosen', data.current === 1);
+                $('.voting-section .vote.disagree').toggleClass('chosen', data.current === -1);
+                
+                $('.voting-section .vote.agree').attr('href', data.upvoteURL);
+                $('.voting-section .vote.disagree').attr('href', data.downvoteURL);
+                $('.voting-section .vote.unvote').attr('href', data.unvoteURL);
+                
+                sizeVoting();
+            }
+        });
+        
+        // ...
+    });
+    
+});
+ 

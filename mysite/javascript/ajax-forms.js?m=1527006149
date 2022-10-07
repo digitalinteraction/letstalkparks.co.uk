@@ -1,0 +1,106 @@
+$(document).ready(function() {
+    
+    var inProgress = false;
+    
+    var loadingSpinner = '<p><i class="loading-spinner fa fa-refresh fa-spin fa-3x fa-fw"></i></p>';
+    
+    function finishAction() {
+        
+        inProgress = false;
+        bindOnClick();
+        $(window).resize();
+        
+        $('form.ajax input[type=submit].clicked').each(function(i, button) {
+            $(button).removeClass("clicked");
+        });
+    }
+    
+    function actionCallback(e) {
+        
+        e.preventDefault();
+        
+        if (inProgress) { return; }
+        
+        inProgress = true;
+        
+        var form = $(this);
+        var target = form.data("target");
+        var base = form.data("url-base");
+        var nest = form.data("nest");
+        var clear = form.data("clear");
+        var noSpin = form.data("no-spinner");
+        
+        var data = form.serializeArray();
+        var url = form.attr("action");
+        var method = form.attr("method").toUpperCase();
+        var enctype = form.attr("enctype");
+        
+        var action = form.find("input[type=submit].clicked");
+        
+        data.push({
+            name: action.attr('name'),
+            value: action.attr('value')
+        });
+        
+        
+        var responseTarget = (target !== null) ? $(target) : form;
+        
+        if (!noSpin) {
+            responseTarget.html(loadingSpinner);
+        }
+        
+        
+        if (action.attr('value') == 'Clear') {
+            form.find('input[type=text], textarea').val("");
+            form.find('.ss-tag-field').select2('val', '');
+        }
+        
+        if (clear) {
+            form.find("input[type=text], textarea").val("");
+        }
+        
+        
+        
+        // Perform the action asynchronously
+        $.ajax({
+            url: url,
+            method: method,
+            data: data,
+            contentType: enctype,
+            success: function(response) {
+                
+                if (nest) {
+                    responseTarget.html(response);
+                }
+                else {
+                    responseTarget.replaceWith(response);
+                }
+                
+                
+                finishAction();
+            },
+            error: function(e) {
+                
+                console.log(e);
+                finishAction();
+            }
+        });
+    }
+    
+    function submitClicked(e) {
+        
+        $(e.currentTarget).addClass("clicked");
+    }
+    
+    function bindOnClick() {
+        
+        $("form.ajax").unbind("submit");
+        $("form.ajax input[type=submit]").unbind("click");
+        
+        $("form.ajax").on("submit", actionCallback);
+        $("form.ajax input[type=submit]").on("click", submitClicked);
+    }
+    
+    bindOnClick();
+    
+});
